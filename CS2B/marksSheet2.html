@@ -1,0 +1,34 @@
+<html>
+<head>
+<h1 align="center">A Marks-Sheet Web Page</h1>
+<title> Using java script</title>
+
+<script type="text/javascript">
+
+var eng,phy,chem,maths,eng1,phy2,chem2,maths2,sum,ave,per;
+eng=window.prompt("Enter the marks of english" , "");
+phy=window.prompt("Enter the marks of physics" , "");
+chem=window.prompt("Enter the marks of chemistry" , "");
+maths=window.prompt("Enter the marks of maths" , "");
+
+eng1=parseInt(eng);
+phy2=parseInt(phy);
+chem2=parseInt(chem);
+maths2=parseInt(maths);
+sum=eng1+phy2+chem2+maths2;
+per=(sum)/500*100;
+ave=sum/5;
+
+document.write("<br>English = "+ eng);
+document.write ("<br>Physics =" + phy);
+document.write("<br>Chemistry = " + chem);
+document.write("<br>Maths = " + maths);
+
+
+document.write("<br><br>Sum is = "+ sum);
+document.write ("<br>Percentage is = " + per + "%");
+document.write("<br>Average is = " + ave);
+
+</script>
+</head>
+</html>
