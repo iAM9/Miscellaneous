@@ -23,7 +23,7 @@ namespace SLR
             attr_table[2] = "End of function definition";
 
 
-
+        // Read file
             TextReader file_r = new StreamReader("file.txt");
             string line;
             while ((line = file_r.ReadLine()) != null)
